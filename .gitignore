@@ -1,0 +1,6 @@
+build*/
+.cache/
+*.afphoto~lock~
+Testdata/
+data.csv
+*.profraw
