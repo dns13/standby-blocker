@@ -46,10 +46,12 @@ target_compile_options(standby_blocker PRIVATE
 include(crow)
 include(fmt)
 include(spdlog)
+include(add_cxxopts)
 include(compiler_warnings)
 
 target_link_libraries(standby_blocker PRIVATE
 	Crow
 	fmt
 	spdlog
+	cxxopts
 )
