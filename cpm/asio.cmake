@@ -1,9 +1,9 @@
 include(CPM)
 CPMAddPackage(
     NAME asio
-    VERSION 1.34.2
+    VERSION 1.36.0
     GITHUB_REPOSITORY chriskohlhoff/asio
-    GIT_TAG asio-1-34-2
+    GIT_TAG asio-1-36-0
 )
 
 find_package(Threads REQUIRED)
